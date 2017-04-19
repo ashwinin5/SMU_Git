@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 # switching tabs
 
 
+
 driver = webdriver.Firefox()
 
 host = "http://10.1.25.133/v3/index.html"
@@ -13,6 +14,7 @@ username = "manage"
 password = "!manage"
 driver.get(host)
 sleep(5)
+# Logging into the application
 driver.find_element(By.ID, "username").send_keys(username)
 driver.find_element(By.ID, "password").send_keys(password)
 driver.find_element(By.ID, "loginButton").click()
