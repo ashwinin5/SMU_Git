@@ -29,3 +29,6 @@ sleep(4)
 driver.find_element(By.ID, "logoutButton").click()
 driver.find_element(By.ID, "adp_ok").click()
 driver.close()
+
+
+# script executed
